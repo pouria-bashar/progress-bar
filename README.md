@@ -18,7 +18,7 @@ $ npm run test
 ```
 
 
-### 5. Run the app
+### Run the app
 
 ```
 npm start
