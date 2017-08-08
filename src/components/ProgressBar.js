@@ -17,7 +17,7 @@ const getBackground = (percentage) => percentage > 100 ? colors.alert: colors.pr
 
 const ProgressBar = ({ percentage }) => (
   <div className={styles.progressBar}>
-    <span>%{percentage}</span>
+    <span>{percentage}%</span>
     <div style={{ width: `${getWidth(percentage)}%` , background: getBackground(percentage) }} />
   </div>
 );

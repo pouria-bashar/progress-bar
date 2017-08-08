@@ -4,7 +4,7 @@ import { shallow } from 'enzyme';
 import ProgressBar, { colors } from '../../src/components/ProgressBar';
 
 describe('<ProgressBar />', () => {
-  
+
   it('renders', function() {
     const wrapper = shallow(<ProgressBar />);
     expect(wrapper).to.have.length(1);
@@ -12,12 +12,12 @@ describe('<ProgressBar />', () => {
 
   it('default percentage is zero', function() {
     const wrapper = shallow(<ProgressBar />);
-    expect(wrapper.text()).to.equal('%0');
+    expect(wrapper.text()).to.equal('0%');
   });
 
   it('percentage is correctly shown', function() {
     const wrapper = shallow(<ProgressBar percentage={20} />);
-    expect(wrapper.text()).to.equal('%20');
+    expect(wrapper.text()).to.equal('20%');
   });
 
   it('progress bar has correct width', () => {
