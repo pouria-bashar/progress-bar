@@ -5,7 +5,8 @@
   "scripts": {
     "start": "node server.js",
     "lint": "eslint src",
-    "test": "mocha tests/setup.js tests/**/*-test.js"
+    "test": "mocha tests/setup.js tests/*-test.js",
+    "test:watch": "mocha --watch tests/setup.js tests/*-test.js"
   },
   "devDependencies": {
     "babel-core": "^6.0.20",
