@@ -1,8 +1,8 @@
 import React from 'react';
 import chai , { expect } from 'chai';
 import { shallow, mount } from 'enzyme';
-import App from '../src/App';
-import ProgressBar from '../src/components/ProgressBar';
+import App from '../../src/App';
+import ProgressBar from '../../src/components/ProgressBar';
 
 describe('<App />', () => {
 
