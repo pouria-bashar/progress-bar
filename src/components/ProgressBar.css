@@ -1,0 +1,20 @@
+.progressBar {
+  max-width: 300px;
+  height: 48px;
+  border: solid 1px #95a5a6;
+  position: relative;
+  overflow: hidden;
+}
+.progressBar > span {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  line-height: 48px;
+  text-align: center;
+}
+
+.progressBar > div {
+  height: 100%;
+  transition: width .2s;
+}
