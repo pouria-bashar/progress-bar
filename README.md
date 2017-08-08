@@ -16,3 +16,10 @@ Run the entire test suite.
 ```
 $ npm run test
 ```
+
+
+### 5. Run the app
+
+```
+npm start
+```
