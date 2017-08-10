@@ -4,7 +4,7 @@ import ProgressBar from './components/ProgressBar';
 import styles from './App.css';
 import axios from 'axios';
 
-const BARS_URL = 'http://frontend-exercise.apps.staging.digital.gov.au/bars';
+const BARS_URL = 'https://frontend-exercise.apps.staging.digital.gov.au/bars';
 
 class App extends Component {
 
